@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Happiness View Controller-->
         <scene sceneID="gzN-2x-vQo">
             <objects>
-                <viewController id="aH8-Ap-Zo4" sceneMemberID="viewController">
+                <viewController id="aH8-Ap-Zo4" customClass="HappinessViewController" customModule="Happiness" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7IB-4K-Wyx"/>
                         <viewControllerLayoutGuide type="bottom" id="dpL-ge-Aib"/>
@@ -16,13 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="Pvg-T4-KDh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ShM-Si-HYE" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ShM-Si-HYE" secondAttribute="trailing" id="7VP-i9-h2a"/>
+                            <constraint firstItem="ShM-Si-HYE" firstAttribute="leading" secondItem="Pvg-T4-KDh" secondAttribute="leading" id="KUh-5L-Ser"/>
+                            <constraint firstItem="ShM-Si-HYE" firstAttribute="bottom" secondItem="dpL-ge-Aib" secondAttribute="top" id="oaV-qt-HTL"/>
+                            <constraint firstItem="ShM-Si-HYE" firstAttribute="top" secondItem="Pvg-T4-KDh" secondAttribute="top" id="uiZ-4K-WNp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMR-qR-oiG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566" y="437"/>
+            <point key="canvasLocation" x="582" y="437"/>
         </scene>
     </scenes>
 </document>
