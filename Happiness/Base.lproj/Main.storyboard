@@ -32,6 +32,9 @@
                             <constraint firstItem="ShM-Si-HYE" firstAttribute="top" secondItem="Pvg-T4-KDh" secondAttribute="top" id="uiZ-4K-WNp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="ShM-Si-HYE" id="3V0-oB-Twi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMR-qR-oiG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
