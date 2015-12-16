@@ -22,7 +22,7 @@ This app displays use of the BezierPath Class to draw a face on screen.  It also
 	- CGSize
 		- CGSize(width: Double, height: Double)
 	- CGRect
-		- struct CGRect { var origin: CGPoint var size: CGSize}
+		- struct CGRect { origin: CGPoint size: CGSize}
 - View Coordinate system 
 	- origin (0,0) is in the upper left
 	- units are points not pixels
