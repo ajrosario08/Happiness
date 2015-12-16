@@ -44,6 +44,7 @@ This app was built by following along on the itunesU class Stanford cs193p lectu
 	- stroke or fill
 		- .setFill()
 		- .setStroke() 
+
 ### Lecture 6
 - Interface builder 
 	- @IBDesignable - make redraw draw in your view controller 
