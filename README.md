@@ -44,3 +44,24 @@ This app was built by following along on the itunesU class Stanford cs193p lectu
 	- stroke or fill
 		- .setFill()
 		- .setStroke() 
+### Lecture 6
+- Interface builder 
+	- @IBDesignable - make redraw draw in your view controller 
+	- @IBInspectable - make properties settable in the utilities pane
+- Protocol
+	- a way to express an API 
+	- is a type
+- Delegate 
+	- is just a protocol 
+- Extensions 
+	- ability to add methods and properties to a class 
+	- properties can not have storage 
+	- can not re-implement methods or properties that are already apart of the class
+- Gestures 
+	- UIGestureRecognizer base class, never create, always subclass
+	- add gesture to a UIView
+	- provide a method to handle gesture
+- Multiple MVC
+	- split view controller 
+	- navigation controller
+	- tab bar controller
